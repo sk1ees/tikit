@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaApple, FaGoogle } from "react-icons/fa";
 import "./Register.css";
 
-const Login = () => {
+const Register = () => {
   return (
     <div className="grid grid-cols-2 h-screen">
       <div className=" flex flex-col gap-10 items-center justify-center ">
@@ -22,7 +22,8 @@ const Login = () => {
           </div>
           <hr className="hr-text" data-content="or" />
           <form
-            action=""
+            action="http://localhost:8000/register"
+            method="POST"
             className="flex flex-col gap-3 w-full text-sm text-gray-200"
           >
             <div className="flex flex-col gap-2">
@@ -94,4 +95,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
