@@ -3,7 +3,7 @@ import React from "react";
 const HotelCards = () => {
   return (
     <div className="flex flex-col">
-      <div className="bg-zinc-100 w-full h-full rounded-lg object-cover">
+      <div className="bg-zinc-100 w-50 h-50 rounded-lg object-cover">
         <img
           src="https://destinationdeluxe.com/wp-content/uploads/2020/09/Beautiful-Hotels-Designs-Ulaman-Bali-Destination-Deluxe.jpg"
           alt=""

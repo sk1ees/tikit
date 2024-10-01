@@ -6,7 +6,7 @@ import ExplorePage from "./pages/ExplorePage";
 function App() {
   return (
     <>
-      <ExplorePage />
+      <HomePage />
     </>
   );
 }
